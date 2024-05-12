@@ -6,6 +6,8 @@ def comamdos():
 
 import app
 
+
+
 @click.command()
 @click.option("--prueba_corta",prompt= "Ingrese cuanto saco en la prueba corta",type=int, help="el valor de la prueba corta tiene que ser numerico")
 def pruebacorta(prueba_corta): #recibe los argumentos de la linea 4
